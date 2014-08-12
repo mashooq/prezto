@@ -75,3 +75,5 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+export PATH=$PATH:/Users/mash/dev/tools/lein-2.4.0:/usr/local/Cellar/maven/3.2.1/bin
+
